@@ -39,6 +39,7 @@ if %VER[3]% EQU 26100 if %VER[4]% GEQ 3775 set VER_NAME=win11.24h2april2025later
 if %VER[3]% EQU 26100 if %VER[4]% GEQ 7019 set VER_NAME=win11.24h2oct2025later
 if %VER[3]% GTR 26100 set VER_NAME=win11.25h2later
 if %VER[3]% EQU 26200 if %VER[4]% GEQ 7019 set VER_NAME=win11.25h2oct2025later
+if %VER[3]% EQU 26300 set VER_NAME=win11.26h2later
 if %VER[3]% GTR 27000 set VER_NAME=win11.27xxx
 if %VER[3]% EQU 28000 set VER_NAME=win11.26h1later
 if %VER[3]% GEQ 29610 set VER_NAME=win11.29610later
@@ -101,6 +102,7 @@ goto :EOF
 
 :Drvinst_win11.24h2oct2025later_x64
 :Drvinst_win11.25h2oct2025later_x64
+:Drvinst_win11.26h2later_x64
 call :FULL_PATCH 8BF8_85C0_7421 33C0_8BF8_EB21
 goto :EOF
 
