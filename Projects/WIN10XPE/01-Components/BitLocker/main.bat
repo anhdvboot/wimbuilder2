@@ -4,11 +4,11 @@ rem Explorer BitLocker integration
 rem full feature
 rem call AddFiles "@\Windows\System32\#nbde*.exe,fve*.exe,bde*.dll,fve*.dll,BitLocker*.*,EhStor*.*"
 
-call AddFiles "@\Windows\System32\#nbdesvc.dll,bdeunlock.exe,fvenotify.exe,Windows.UI.Immersive.dll"
+call AddFiles "bdesvc.dll,bdeunlock.exe,fvenotify.exe,Windows.UI.Immersive.dll"
 
-if not "%opt[build.wim]%"=="winre" (
-  call AddFiles "@\Windows\System32\#nbdeui.dll,fveapi.dll,fvecerts.dll,fveui.dll"
-)
+rem add for boot.wim
+call AddFiles "EhStorAPI.dll,EhStorAuthn.exe,EhStorPwdMgr.dll,EhStorShell.dll"
+call AddFiles "bdeui.dll,fveapi.dll,fvecerts.dll,fveui.dll"
 
 if "x%opt[shell.app]%"=="xexplorer" (
   rem auto contextmenu
