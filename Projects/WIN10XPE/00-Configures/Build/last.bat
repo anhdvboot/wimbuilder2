@@ -1,3 +1,9 @@
+
+if not exist "%X%\Windows\SysWOW64\kernel32.dll" (
+    rem remove WOW64 catalogs
+    del /f /a /q "%X%\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\*WOW64*"
+)
+
 if exist "%X_SYS%\AppxSysprep.dll" goto :UPDATE_SYSTEM_HIVE
 
 rem set "RunAs"="Interactive User" -* "RunAs"=""
