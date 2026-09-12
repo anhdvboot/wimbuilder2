@@ -9,6 +9,9 @@ rem make things easy with Everyone(S-1-1-0)
 rem AFAIK, FDResPub service needs the right(LOCAL SERVICE), otherwise fail to start
 SetACL.exe -on "HKLM\Tmp_SYSTEM" -ot reg -actn ace -ace "n:S-1-1-0;p:full"
 
+rem make the sound work in some browsers
+SetACL.exe -on "HKLM\Tmp_SOFTWARE\Microsoft\Windows\CurrentVersion" -ot reg -actn ace -ace "n:S-1-1-0;p:full"
+
 call RegCopy HKLM\Software\Classes\AppID
 call ACLRegKey HKLM\Software\Classes\AppID
 
