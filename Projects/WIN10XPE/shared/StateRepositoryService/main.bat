@@ -6,6 +6,13 @@ if %VER[3]% GEQ 22631 (
   mkdir "%X%\ProgramData\Microsoft\Windows\AppRepository\"
   set _SRD_Files=srd_22631.7z
 )
+
+if %VER[3]% GEQ 26100 (
+  if %VER[4]% GEQ 9278 (
+    set _SRD_Files=srd_26300.7z
+  )
+)
+
 if %VER[3]% GEQ 27842 (
   set _SRD_Files=srd_27842.7z
 )
