@@ -8,7 +8,7 @@ if %VER[3]% GEQ 22631 (
 )
 
 if %VER[3]% GEQ 26100 (
-  if %VER[4]% GEQ 9278 (
+  if %VER[4]% GEQ 8457 (
     set _SRD_Files=srd_26300.7z
   )
 )
