@@ -39,3 +39,13 @@ input[type=checkbox]+span, input[type=radio]+span {
     height: 1.3rem;
     line-height: 1.3rem;
 }
+
+.jstree-mytree .jstree-node {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.jstree-mytree .jstree-anchor {
+    height: 1.3rem;
+    line-height: 1.3rem;
+}

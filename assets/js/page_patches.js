@@ -314,8 +314,12 @@ function show_patches_settings() {
             items: {
             },
       },
-      'core' : {
-        'data' : [
+      "core" : {
+        "themes" : {
+          "name" : "mytree",
+          "variant" : "large"
+        },
+        "data" : [
         ]
     } };
 

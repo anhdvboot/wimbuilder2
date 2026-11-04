@@ -36,3 +36,13 @@ input[type=checkbox] span, input[type=radio] span {
     height: initial;
     line-height: initial;
 }
+
+.jstree-mytree .jstree-node {
+    font-size:initial;
+    line-height: initial;
+}
+
+.jstree-mytree .jstree-anchor {
+    height: initial;
+    line-height: initial;
+}

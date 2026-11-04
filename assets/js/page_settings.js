@@ -35,8 +35,18 @@ $("#ui_dpi").change(function() {
     $ui_settings['dpi'] = $(this).val();
     if ($ui_settings['dpi'] == '') {
         dpi_adapt('100');
+        $('#patches_tree').jstree(true).set_theme_variant('large');
     } else {
         dpi_adapt($ui_settings['dpi']);
+        if ($ui_settings['dpi'] == '100') {
+            $('#patches_tree').jstree(true).set_theme_variant('large');
+        } else if ($ui_settings['dpi'] == '125') {
+            $('#patches_tree').jstree(true).set_theme_variant('large40');
+        } else if ($ui_settings['dpi'] == 'high') {
+            $('#patches_tree').jstree(true).set_theme_variant('large48');
+        } else if ($ui_settings['dpi'] == 'custom') {
+            $('#patches_tree').jstree(true).set_theme_variant('custom');
+        }
     }
 });
 
