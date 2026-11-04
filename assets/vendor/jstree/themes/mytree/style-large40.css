@@ -1,0 +1,186 @@
+.jstree-mytree-large40 .jstree-node {
+  min-height: 40px;
+  line-height: 40px;
+  margin-left: 40px;
+  min-width: 40px;
+}
+.jstree-mytree-large40 .jstree-anchor {
+  line-height: 40px;
+  height: 40px;
+}
+.jstree-mytree-large40 .jstree-icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.jstree-mytree-large40 .jstree-icon:empty {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-node {
+  margin-right: 40px;
+}
+.jstree-mytree-large40 .jstree-wholerow {
+  height: 40px;
+}
+.jstree-mytree-large40 .jstree-node,
+.jstree-mytree-large40 .jstree-icon {
+  background-image: url("40px.png");
+}
+.jstree-mytree-large40 .jstree-node {
+  background-position: -360px 0px;
+  background-repeat: repeat-y;
+}
+.jstree-mytree-large40 .jstree-last {
+  background-image: none;
+}
+.jstree-mytree-large40 .jstree-open > .jstree-ocl {
+  background-position: -160px 0px;
+}
+.jstree-mytree-large40 .jstree-closed > .jstree-ocl {
+  background-position: -120px 0px;
+}
+.jstree-mytree-large40 .jstree-leaf > .jstree-ocl {
+  background-position: -80px 0px;
+}
+.jstree-mytree-large40 .jstree-themeicon {
+  background-position: -320px 0px;
+}
+.jstree-mytree-large40 > .jstree-no-dots .jstree-node,
+.jstree-mytree-large40 > .jstree-no-dots .jstree-leaf > .jstree-ocl {
+  background: transparent;
+}
+.jstree-mytree-large40 > .jstree-no-dots .jstree-open > .jstree-ocl {
+  background-position: -40px 0px;
+}
+.jstree-mytree-large40 > .jstree-no-dots .jstree-closed > .jstree-ocl {
+  background-position: 0px 0px;
+}
+.jstree-mytree-large40 .jstree-disabled {
+  background: transparent;
+}
+.jstree-mytree-large40 .jstree-disabled.jstree-hovered {
+  background: transparent;
+}
+.jstree-mytree-large40 .jstree-disabled.jstree-clicked {
+  background: #efefef;
+}
+.jstree-mytree-large40 .jstree-checkbox {
+  background-position: -200px 0px;
+}
+.jstree-mytree-large40 .jstree-checkbox:hover {
+  background-position: -200px -40px;
+}
+.jstree-mytree-large40.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox,
+.jstree-mytree-large40 .jstree-checked > .jstree-checkbox {
+  background-position: -280px 0px;
+}
+.jstree-mytree-large40.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox:hover,
+.jstree-mytree-large40 .jstree-checked > .jstree-checkbox:hover {
+  background-position: -280px -40px;
+}
+.jstree-mytree-large40 .jstree-anchor > .jstree-undetermined {
+  background-position: -240px 0px;
+}
+.jstree-mytree-large40 .jstree-anchor > .jstree-undetermined:hover {
+  background-position: -240px -40px;
+}
+.jstree-mytree-large40 .jstree-checkbox-disabled {
+  opacity: 0.8;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'jstree-grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#jstree-grayscale");
+  /* Firefox 10+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+ & Safari 6+ */
+}
+.jstree-mytree-large40 > .jstree-striped {
+  background-size: auto 80px;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-node {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAACAQMAAAB49I5GAAAABlBMVEUAAAAdHRvEkCwcAAAAAXRSTlMAQObYZgAAAAxJREFUCNdjAAMOBgAAGAAJMwQHdQAAAABJRU5ErkJggg==");
+  background-position: 100% 1.25px;
+  background-repeat: repeat-y;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-last {
+  background-image: none;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-open > .jstree-ocl {
+  background-position: -160px -40px;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-closed > .jstree-ocl {
+  background-position: -120px -40px;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-leaf > .jstree-ocl {
+  background-position: -80px -40px;
+}
+.jstree-mytree-large40.jstree-rtl > .jstree-no-dots .jstree-node,
+.jstree-mytree-large40.jstree-rtl > .jstree-no-dots .jstree-leaf > .jstree-ocl {
+  background: transparent;
+}
+.jstree-mytree-large40.jstree-rtl > .jstree-no-dots .jstree-open > .jstree-ocl {
+  background-position: -40px -40px;
+}
+.jstree-mytree-large40.jstree-rtl > .jstree-no-dots .jstree-closed > .jstree-ocl {
+  background-position: 0px -40px;
+}
+.jstree-mytree-large40 .jstree-themeicon-custom {
+  background-color: transparent;
+  background-image: none;
+  background-position: 0 0;
+}
+.jstree-mytree-large40 > .jstree-container-ul .jstree-loading > .jstree-ocl {
+  background: url("throbber.gif") center center no-repeat;
+}
+.jstree-mytree-large40 .jstree-file {
+  background: url("40px.png") -120px -80px no-repeat;
+}
+.jstree-mytree-large40 .jstree-folder {
+  background: url("40px.png") -320px 0px no-repeat;
+}
+.jstree-mytree-large40 .jstree-open > .jstree-anchor > .jstree-themeicon:not(.jstree-themeicon-custom):not(.jstree-file),
+.jstree-mytree-large40 .jstree-open > .jstree-anchor > .jstree-folder {
+  background-position: -160px -80px;
+}
+.jstree-mytree-large40 > .jstree-container-ul > .jstree-node {
+  margin-left: 0;
+  margin-right: 0;
+}
+#jstree-dnd.jstree-mytree-large40 {
+  line-height: 40px;
+  padding: 0 5px;
+}
+#jstree-dnd.jstree-mytree-large40 .jstree-ok,
+#jstree-dnd.jstree-mytree-large40 .jstree-er {
+  background-image: url("40px.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+#jstree-dnd.jstree-mytree-large40 i {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+#jstree-dnd.jstree-mytree-large40 .jstree-ok {
+  background-position: 0px -80px;
+}
+#jstree-dnd.jstree-mytree-large40 .jstree-er {
+  background-position: -40px -80px;
+}
+.jstree-mytree-large40 .jstree-ellipsis {
+  overflow: hidden;
+}
+.jstree-mytree-large40 .jstree-ellipsis .jstree-anchor {
+  width: calc(100% - 40px + 6.25px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-node {
+  background-image: url("40px.png");
+  background-position: 100% 0;
+}
+.jstree-mytree-large40.jstree-rtl .jstree-last {
+  background-image: none;
+}
