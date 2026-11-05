@@ -66,6 +66,26 @@ select, option, input[type=text],
   color: #fff;
 }
 
+.jstree-mytree .hl-node {
+    display:inline-block;
+    font-weight:bold;
+    color: rgb(66, 184, 221);
+}
+
+.jstree-mytree .jstree-hovered .hl-node {
+     color: #fff;
+}
+
+.jstree-mytree .jstree-hovered {
+  background:rgb(31,141,214);
+}
+
+.jstree-mytree .jstree-clicked,
+.jstree-mytree .jstree-clicked .hl-node {
+  background: rgb(31,141,214);
+  color: #fff;
+}
+
 #patch_html fieldset {
   margin-top: 5px;
   padding: 5px;

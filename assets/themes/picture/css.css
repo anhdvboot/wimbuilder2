@@ -28,6 +28,20 @@ body {
   background: #00b2ff;
 }
 
+.jstree-mytree .hl-node {
+    display:inline-block;
+    font-weight:bold;
+    color: blue;
+}
+
+.jstree-mytree .jstree-hovered {
+  background: #00b2ff;
+}
+
+.jstree-mytree .jstree-clicked {
+  background: #00b2ff;
+}
+
 select, option, input[type=text] {
   color: black;
 }

@@ -63,6 +63,12 @@ select, option, input[type=text],
     color: blue;
 }
 
+.jstree-mytree .hl-node {
+    display:inline-block;
+    font-weight:bold;
+    color: blue;
+}
+
 .box {
   color: black;
 }
